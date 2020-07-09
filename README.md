@@ -1,6 +1,6 @@
 USAGE:
 =====
-
+```
 localhost ~ # ./gpiocfg -h        
 
 Usage: ./gpiocfg [options] <command>
@@ -13,11 +13,12 @@ Commands:
   -v, --value=<DW0 value>  Parse the given DW0 register value
   -l, --list               List the GPIO pins for selected platform
   -h, --help               Print this help.
-
+```
 
 EXAMPLE OUTPUT:
 ==============
 
+```
 localhost ~ # 
 localhost ~ # ./gpiocfg -r GPP_D16
 Pin lookup requested for pin  : GPP_D16
@@ -52,3 +53,4 @@ PAD_CFG_DW1 value : 0x00003038
 [bit     0][GPIO TX State]                = 0x0 (Drive a level '0' to the TX output pad)
 -------------------------------
 localhost ~ # 
+```
