@@ -1,4 +1,4 @@
-#define MAX_PIN_NAME_WIDTH 	    16
+#define MAX_PIN_NAME_WIDTH 	    32
 #define MAX_PINS_IN_COMMUNITY	    128
 #define MAX_COMMUNITIES		    8
 
