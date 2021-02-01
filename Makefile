@@ -1,7 +1,7 @@
 CFLAGS = -Wall
 
 HEADERS = gpiocfg.h
-OBJECTS = gpiocfg.o icelake.o kabylake.o cometlake.o jasperlake.o
+OBJECTS = gpiocfg.o icelake.o kabylake.o cometlake.o jasperlake.o tigerlake.o
 
 default: gpiocfg
 all: default

@@ -12,12 +12,14 @@ extern struct platform icelake;
 extern struct platform kabylake;
 extern struct platform cometlake;
 extern struct platform jasperlake;
+extern struct platform tigerlake;
 
 struct platform *platforms[] = {
 	&icelake,
 	&kabylake,
 	&cometlake,
 	&jasperlake,
+	&tigerlake,
 	NULL
 };
 
