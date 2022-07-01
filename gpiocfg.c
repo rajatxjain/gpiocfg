@@ -13,6 +13,7 @@ extern struct platform kabylake;
 extern struct platform cometlake;
 extern struct platform jasperlake;
 extern struct platform tigerlake;
+extern struct platform alderlake;
 
 struct platform *platforms[] = {
 	&icelake,
@@ -20,10 +21,11 @@ struct platform *platforms[] = {
 	&cometlake,
 	&jasperlake,
 	&tigerlake,
+	&alderlake,
 	NULL
 };
 
-struct platform *platform = &icelake;
+struct platform *platform = &alderlake;
 
 #define DW0_ADDR(cmty, pin_no_in_cmty)			 \
 	(platform->base_addr +                           \
